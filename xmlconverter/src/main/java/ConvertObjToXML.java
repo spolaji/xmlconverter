@@ -24,7 +24,7 @@ public class ConvertObjToXML {
         c.setMobileNo(numberList);
 
         //Change the file path below
-        File file = new File("/Users/xxxx/LocalDev/SampleTestFiles/customer.xml");
+        File file = new File("/Users/polaji/LocalDev/SampleTestFiles/customer.xml");
         JAXBContext jaxbContext = JAXBContext.newInstance(Customer.class);
         Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
         jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
